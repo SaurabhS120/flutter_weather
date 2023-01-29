@@ -1,0 +1,16 @@
+name: flutter_weather
+
+packages:
+  - domain
+  - data
+  - presentation
+
+scripts:
+  analyze:
+    exec: dart analyze .
+  clean:
+    exec: flutter clean
+  pub_get:
+    exec: flutter pub get
+  pub_upgrade:
+    exec: flutter pub upgrade
