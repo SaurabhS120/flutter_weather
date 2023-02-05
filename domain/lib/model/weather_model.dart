@@ -1,6 +1,6 @@
 import 'package:domain/model/units.dart';
-class Weather{
+class WeatherModel{
   final int temp;
   final Units unit;
-  Weather({required this.temp,required this.unit});
+  WeatherModel({required this.temp,required this.unit});
 }
